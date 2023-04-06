@@ -3,8 +3,7 @@ The sample project is an attempt to study and analyze map generalization efficie
 
 The repository contains three key folders:
 <ul>
-<b> <li> Pregeneralized_Shapefiles </li> 
-<li> Generalized_Shapefiles </li> 
-<li>Vertices_Labels </li> </b>
+<li> <b> Pregeneralized_Shapefiles </b> </li> - contains shapefiles of <i>California, Florida, Idaho, Louisiana, Maine, North Carolina, Texas</i> downloaded from <a href = "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html"> United States Census Bureau </a> Cartographic Boundary Files - Shapefile link.
+<li> Generalized_Shapefiles </li> - contains shapefiles of <i>California, Florida, Idaho, Louisiana, Maine, North Carolina, Texas.</i> Generalization is performed using <b>Viswalingam - Whyatt</b> (Weighted Area) technique. The shapefiles are seperated and exported individually using ArcGIS Pro to <a href = "https://mapshaper.org/">mapshaper.org</a> developed by <b>Matthew Bloch</b>. All the generalizations are performed with a  0.30% simplify for a fair comparison and analysis.</p>
+<li>Vertices_Labels </li> - contains CSV files of aforementioned of shapefiles in Generalized_Shapefiles. Each CSV file has columns <b> Latitude, Longitude, Case</b>. Case columns contains <i>"Yes/No"</i> based on Latitude, Longitude columns of Generalized_columns
 
-<p>Pregeneralized_Shapefiles folder contains currently shapefiles of <i>California, Florida, Idaho, Louisiana, Maine, North Carolina, Texas</i>, the same set of shapefiles are present in Generalized_Shapefiles folder. The generalization is performed using <b>Viswalingam - Whyatt</b> (Weighted Area) technique. The shapefile of United States is downloaded from U.S Census Bureau and each state is exported via ArcGIS Pro as seperate shapefile and the generalization is performed usingh the website - <a href = "https://mapshaper.org/">mapshaper.org</a> developed by <b>Matthew Bloch</b>. All the generalizations are performed with a threshold of 0.30% for a fair comparison.</p>
