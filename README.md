@@ -8,6 +8,6 @@ The repository contains <b>three key</b> folders:
 <li><b>Vertices_Labels</b></li> <p> Folder contains CSV files of aforementioned of shapefiles in Generalized_Shapefiles. Each CSV file has columns <b> Latitude, Longitude, Case</b>. Case columns contains <i>"Yes/No"</i> based on Latitude, Longitude columns of Generalized_Shapefiles. </p>
 
 Sample Workflow:
-<img src="C:\Users\Sidrcs\Documents\Github\map_generalisation_ml\DesignAssests" alt="CartoAI Workflow">
+<img src="https://github.com/gangaraju09/map_generalisation_ml/blob/main/DesignAssests/CartoAI_Sample_WorkFlow.png" alt="CartoAI Workflow">
 
 
